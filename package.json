@@ -1,0 +1,26 @@
+{
+  "name": "tdesign",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --open",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.0.9",
+    "tdesign-vue-next": "^0.7.0",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "autoprefixer": "^9.8.8",
+    "path": "^0.12.7",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.4",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
